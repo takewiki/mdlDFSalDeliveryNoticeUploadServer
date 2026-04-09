@@ -99,7 +99,7 @@ salDeliveryNoticeViewServer <- function(input,output,session,dms_token) {
 
     tsui::run_dataTable2(id = 'salDeliveryNotice_resultView',data = data)
 
-    tsui::run_download_xlsx(id = 'dl_salDeliveryNotice',data = data,filename = 'BYD销售退货.xlsx')
+    tsui::run_download_xlsx(id = 'dl_salDeliveryNotice',data = data,filename = 'BYD发货通知单.xlsx')
 
 
 

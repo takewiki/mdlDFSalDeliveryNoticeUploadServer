@@ -49,7 +49,7 @@ salDeliveryNoticeUploadServer <- function(input,output,session,dms_token) {
 
 
 
-      tsda::mysql_writeTable2(token = dms_token,table_name = 'rds_erp_byd_src_t_sal_DeliveNotice_list_input',r_object = data,append = TRUE)
+      tsda::mysql_writeTable2(token = dms_token,table_name = 'rds_erp_byd_src_t_sal_deliverynotice_list_input',r_object = data,append = TRUE)
 
       # 插入list表和表头表体
 
